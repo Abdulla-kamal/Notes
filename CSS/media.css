@@ -1,0 +1,45 @@
+
+@media(max-width: 767px) {
+    .container {
+        width: 80%;
+    }
+
+    input {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .inputs {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .letter {
+        width: 80%;
+        height: 20%;
+    }
+}
+
+@media(min-width: 768px) {
+    .container {
+        width: 80%;
+    }
+
+    input {
+        font-size: 18px;
+    }
+}
+
+@media(min-width: 992px) {
+    .container {
+        width: 60%;
+    }
+
+}
+@media(min-width: 1200px) {
+    .container {
+        width: 50%;
+    }
+}
+/* End general styles */
